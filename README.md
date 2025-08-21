@@ -50,20 +50,6 @@ or if you want to try on your local machine
 ```bash
 python local_chat.py
 ```
-## Project Structure
-
-Medical-RAG-Chatbot/
-
-│
-
-├─ app_chat.py          # Main Streamlit chatbot
-
-├─ loacl_chat.py        # Chatbot without streamlit
-
-├─ requirements.txt     # Python dependencies
-
-└─ README.md            # Project description
-
 
 
 
