@@ -1,11 +1,11 @@
 # Medical-RAG-Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot that scrapes https://www.agnoshealth.com/forums, extracts symptoms and doctor advice, and allows users to get initial advice from diagnosis history through a Streamlit interface.
+A **Retrieval-Augmented Generation (RAG) chatbot** that scrapes [Agnos Health forums](https://www.agnoshealth.com/forums), extracts symptoms and doctor advice, and allows users to get initial guidance from diagnosis history through a **Streamlit interface**.
 
 ## Features
 
 - Scrapes forum posts where a doctor has replied.
-- Extracts symptom and advice from doctor.
+- Extracts symptoms and doctor advice.
 - Stores each posts in a vector database for fast retrieval.
 - Chatbot interface via Streamlit.
 
@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ```
 If you don't have Ollama yet
 
-3.1 download Ollama from https://ollama.com/download
+-3.1 download Ollama from https://ollama.com/download
 
-3.2 download relevant embedding model and LLMs
+-3.2 download relevant embedding model and LLMs
 ```bash
 ollama pull bge-m3
 ollama run scb10x/llama3.1-typhoon2-8b-instruct
@@ -46,7 +46,7 @@ ollama run scb10x/llama3.1-typhoon2-8b-instruct
 ```bash
 streamlit run app_chat.py
 ```
-or if you want to try on your local machine 
+Alternatively, run locally without Streamlit
 ```bash
 python local_chat.py
 ```
