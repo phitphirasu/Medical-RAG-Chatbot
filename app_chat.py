@@ -30,7 +30,7 @@ if user_question := st.chat_input("ถามคำถามที่ท่าน
         st.markdown(user_question)
 
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
+        with st.spinner("รอสักครู่..."):
 
             # Web Scrape ในกรณีที่ยังไม่มี First query
             if st.session_state.retrieved_context is None: #กรณียังไม่มีการ Query (ไม่มี chat log)(เป็นคำถามแรก)
