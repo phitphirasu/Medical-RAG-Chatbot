@@ -23,6 +23,7 @@ cd Medical-RAG-Chatbot
 python -m venv .venv
 .venv\Scripts\activate
 ```
+
    -On Linux/Mac:
 ```bash
 python -m venv .venv
