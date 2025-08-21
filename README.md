@@ -18,20 +18,20 @@ cd Medical-RAG-Chatbot
 ```
 
 2. Create and activate a virtual environment:
-   
-  On Windows:
-  
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
 
-  On Linux/Mac:
-  
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
+    **On Windows:**
+    
+    ```bash
+    python -m venv .venv
+    .venv\Scripts\activate
+    ```
+
+    **On Linux/Mac:**
+    
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    ```
 
 3. Install dependencies:
 ```bash
