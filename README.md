@@ -18,12 +18,12 @@ cd Medical-RAG-Chatbot
 ```
 2. Create and activate a virtual environment:
    
-   On Windows:
+   -On Windows:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
-    On Linux/Mac:
+   -On Linux/Mac:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ```
 If you don't have Ollama yet
 
-   3.1 download Ollama from https://ollama.com/download
+   -3.1 download Ollama from https://ollama.com/download
 
-   3.2 download relevant embedding model and LLMs
+   -3.2 download relevant embedding model and LLMs
 ```bash
 ollama pull bge-m3
 ollama run scb10x/llama3.1-typhoon2-8b-instruct
