@@ -51,14 +51,18 @@ A **Retrieval-Augmented Generation (RAG) chatbot** that scrapes [Agnos Health fo
         ```
 
 ## Usage
-1.Run Streamlit Chatbot
-   ```bash
-   streamlit run app_chat.py
-   ```
-   Alternatively, run locally without Streamlit
-   ```bash
-   python local_chat.py
-   ```
+
+1. Run Streamlit Chatbot:
+
+    ```bash
+    streamlit run app_chat.py
+    ```
+
+    Alternatively, run locally without Streamlit:
+
+    ```bash
+    python local_chat.py
+    ```
 
 
 
