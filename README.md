@@ -33,7 +33,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 If you don't have Ollama yet
+
 3.1 download Ollama from https://ollama.com/download
+
 3.2 download relevant embedding model and LLMs
 ```bash
 ollama pull bge-m3
