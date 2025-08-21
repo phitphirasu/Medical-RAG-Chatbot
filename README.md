@@ -34,27 +34,31 @@ A **Retrieval-Augmented Generation (RAG) chatbot** that scrapes [Agnos Health fo
     ```
 
 3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-If you don't have Ollama yet
+    
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+    If you don't have Ollama yet:
 
-   -3.1 download Ollama from https://ollama.com/download
+    - 3.1 Download Ollama from [https://ollama.com/download](https://ollama.com/download)
 
-   -3.2 download relevant embedding model and LLMs
-```bash
-ollama pull bge-m3
-ollama run scb10x/llama3.1-typhoon2-8b-instruct
-```
+    - 3.2 Download relevant embedding model and LLMs:
+
+        ```bash
+        ollama pull bge-m3
+        ollama run scb10x/llama3.1-typhoon2-8b-instruct
+        ```
+
 ## Usage
 1.Run Streamlit Chatbot
-```bash
-streamlit run app_chat.py
-```
-Alternatively, run locally without Streamlit
-```bash
-python local_chat.py
-```
+   ```bash
+   streamlit run app_chat.py
+   ```
+   Alternatively, run locally without Streamlit
+   ```bash
+   python local_chat.py
+   ```
 
 
 
