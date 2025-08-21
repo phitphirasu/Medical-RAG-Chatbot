@@ -17,14 +17,12 @@ git clone https://github.com/yourusername/Medical-RAG-Chatbot.git
 cd Medical-RAG-Chatbot
 ```
 2. Create and activate a virtual environment:
-   
-   -On Windows:
+  On Windows:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
-
-   -On Linux/Mac:
+  On Linux/Mac:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
