@@ -63,6 +63,15 @@ A **Retrieval-Augmented Generation (RAG) chatbot** that scrapes [Agnos Health fo
     ```bash
     python local_chat.py
     ```
+## Note
+
+By default, the scraper will only scrape **page 1**.  
+
+You can change the number of pages to scrape by modifying the following lines in the respective files:
+
+- `app_chat.py` – line 41  
+- `local_chat.py` – line 30
+
 
 
 
